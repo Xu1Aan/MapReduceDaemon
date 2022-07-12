@@ -1,0 +1,4 @@
+com\xu1an\common\KeyValue.class
+com\xu1an\MapReduceDaemon.class
+com\xu1an\handler\impl\WordCount.class
+com\xu1an\handler\MapReduce.class
