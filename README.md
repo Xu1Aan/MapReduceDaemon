@@ -1,7 +1,5 @@
 ## Java从零实现单点MapReduce :star2: 
 
-> 感谢Star，项目问题交流可发[邮件](toxuan1998@qq.com)
-
 学习Hadoop的MapReduce时，为能够更加充分的了解MapReduce底层原理，希望从零实现一个自己的MapReduce。而著名的MIT 6.824课程MapReduce由 Go 语言完成（**MIT  6.824** 分布式系统课程,是一门著名的讲解分布式系统设计原理的课程）。同样是服务端编程语言的Java，网上从零实现MapReduce资源却很少，如此看来，如果能有一个 Java 版的课程作业可供学习挑战，收益人应该还会更多。
 
 本项目为单点MapReduce项目（非分布），后期将对此项目重构为分布式MapReduce项目。此项目实现了单点的wordcount案例。
@@ -29,7 +27,7 @@ public static void main(String[] args) {
 
 **流程图**
 
-![](.\picture\流程介绍.png)
+<img src=".\picture\流程介绍.png" style="zoom:22%;" />
 
 Splitting代码：
 
@@ -87,6 +85,10 @@ for (int i = 0; i < intermediate.size(); ) {
 // Reduce方法
 return String.valueOf(values.size());
 ```
+
+**下一步:star:**
+
+使用Netty对单点MapReduce进行重构，实现分布MapReduce。
 
 **参考资料:tada:**
 
