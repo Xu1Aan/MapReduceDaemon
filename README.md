@@ -92,6 +92,8 @@ return String.valueOf(values.size());
 
 使用Netty对单点MapReduce进行重构，实现分布MapReduce。
 
+目前准备找实习，各位大佬有内推可[联系](mailto:toxuan1998@qq.com)我
+
 **参考资料:tada:**
 
 [MIT6.824课程]( https://pdos.csail.mit.edu/6.824/labs/lab-mr.html)
