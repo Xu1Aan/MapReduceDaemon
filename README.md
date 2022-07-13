@@ -90,7 +90,7 @@ return String.valueOf(values.size());
 
 **下一步:star:**
 
-使用Netty对单点MapReduce进行重构，实现分布MapReduce。
+使用Netty对单点MapReduce进行重构，实现分布MapReduce。目前已完成，地址：https://github.com/Xu1Aan/MapReduece
 
 目前准备找实习，各位大佬有内推可[联系](mailto:toxuan1998@qq.com)我
 
